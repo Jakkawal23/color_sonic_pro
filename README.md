@@ -4,6 +4,8 @@
 
 ---
 
+### Python 3.12
+
 ## Windows (PowerShell)
 
 ### 1. สร้าง Virtual Environment

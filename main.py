@@ -76,6 +76,7 @@ class ColorDetectorGUI:
         from tkinter import ttk
         adv_win = tk.Toplevel(self.root)
         adv_win.title("จัดการสีและสถานะ")
+        adv_win.iconbitmap("color_sonic_pro.ico")
 
         # Tolerance input (top row)
         tk.Label(adv_win, text="Tolerance:").grid(row=0, column=0, padx=2, sticky="w")
@@ -188,6 +189,7 @@ class ColorDetectorGUI:
             item = self.color_list[idx].copy()
             edit_win = tk.Toplevel(adv_win)
             edit_win.title("แก้ไขข้อมูลสี")
+            edit_win.iconbitmap("color_sonic_pro.ico")
             tk.Label(edit_win, text="R:").grid(row=0, column=0)
             r_edit = tk.Entry(edit_win, width=5)
             r_edit.insert(0, str(item["rgb"][0]))
