@@ -65,9 +65,6 @@ pyinstaller --version
 ### 2. สร้าง .exe (เข้าไปโฟลเดอร์โปรเจกต์)
 ```bash
 pyinstaller --onefile --windowed --name "Color Sonic Pro 1.0" --icon="C:\path\to\icon.ico" main.py
-
-pyinstaller --onefile --windowed --name "Color Sonic Pro 1.0" --icon="C:\Users\Jakkawal_p\Desktop\Github Project\_tiktok_project\color_sonic_pro\color_sonic_pro.ico" main.py
-
 ```
 - `--onefile` → รวมทุกอย่างเป็นไฟล์เดียว
 - `--windowed` → ไม่เปิด console (เหมาะกับ GUI)
