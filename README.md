@@ -72,7 +72,7 @@ pyinstaller --onefile --windowed --name "Color Sonic Pro 1.0" --icon="C:\path\to
 - `--icon` → Icon
 
 ## Download .exe file for windows
-*   [ดาวน์โหลด TikTokAutoPlayGame_1.0.exe](https://github.com/Jakkawal23/tiktok_live_play_context_game/blob/main/Color_Sonic_Pro_1.1.exe)
+*   [ดาวน์โหลด TikTokAutoPlayGame_1.0.exe](https://github.com/Jakkawal23/color_sonic_pro/blob/main/Color_Sonic_Pro_1.1.exe)
 
 ## Example web
 
